@@ -1,0 +1,15 @@
+.ask-question-button {
+  background-color: var(--reddit-orange);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ask-question-button:hover {
+  background-color: #e03d00;
+}

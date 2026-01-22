@@ -1,0 +1,43 @@
+.vote-container {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.vote-button {
+  height: 40px !important;
+  width: 40px !important;
+  padding: 0 !important;
+  border-radius: 4px !important;
+  transition: all 0.15s ease;
+}
+
+.vote-button-upvoted {
+  background-color: #38a169;
+  color: white;
+}
+
+.vote-button-downvoted {
+  background-color: #e53e3e;
+  color: white;
+}
+
+/* Enhanced upvote active state */
+.upvote-active {
+  background-color: rgba(16, 185, 129, 0.2) !important;
+  color: #10b981 !important;
+  border: 2px solid #10b981 !important;
+  transform: scale(1.1);
+}
+
+/* Enhanced downvote active state */
+.downvote-active {
+  background-color: rgba(239, 68, 68, 0.2) !important;
+  color: #ef4444 !important;
+  border: 2px solid #ef4444 !important;
+  transform: scale(1.1);
+}
+
+.vote-count {
+  margin-left: 0.5rem;
+}

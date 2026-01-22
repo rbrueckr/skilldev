@@ -1,0 +1,133 @@
+.question {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid var(--reddit-border);
+  transition: all 0.2s;
+  cursor: pointer;
+  position: relative;
+}
+
+.question:hover {
+  border-color: #898989;
+}
+
+.postStats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45px;
+  min-width: 45px;
+  padding: 0;
+  margin-right: 12px;
+}
+
+.vote-button {
+  height: 30px !important;
+  width: 30px !important;
+  padding: 0 !important;
+  border-radius: 4px !important;
+  transition: all 0.15s ease;
+}
+
+.vote-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Enhanced upvote active state */
+.upvote-active {
+  background-color: rgba(16, 185, 129, 0.2) !important;
+  color: #10b981 !important;
+  border: 2px solid #10b981 !important;
+  transform: scale(1.1);
+}
+
+/* Enhanced downvote active state */
+.downvote-active {
+  background-color: rgba(239, 68, 68, 0.2) !important;
+  color: #ef4444 !important;
+  border: 2px solid #ef4444 !important;
+  transform: scale(1.1);
+}
+
+.vote-count {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 2px 0;
+  text-align: center;
+  min-width: 30px;
+  line-height: 1.5;
+}
+
+.question_stats {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: #787c7e;
+}
+
+.question_mid {
+  flex: 1;
+  padding-bottom: 20px; /* Add space for the bottom stats */
+}
+
+.postTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--reddit-dark-grey);
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+.question:hover .postTitle {
+  color: var(--reddit-blue);
+}
+
+.question_tags {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.question_tag_button {
+  color: var(--reddit-blue);
+  background: rgba(0, 121, 211, 0.1);
+  border-width: 0;
+  border-radius: 9999px;
+  margin: 0 6px 6px 0;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.question_tag_button:hover {
+  background: rgba(0, 121, 211, 0.2);
+}
+
+.lastActivity {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  min-width: 120px;
+  font-size: 12px;
+  color: #787c7e;
+  text-align: right;
+  padding-right: 4px;
+}
+
+.question_author {
+  color: var(--reddit-orange);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.question_meta {
+  color: #787c7e;
+}

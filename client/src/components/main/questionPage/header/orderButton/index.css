@@ -1,0 +1,20 @@
+.order_button {
+  border: 1px solid #edeff1;
+  background: #f6f7f8;
+  color: var(--reddit-dark-grey);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.order_button:hover {
+  background: #e9ebed;
+}
+
+.order_selected {
+  background-color: #edeff1;
+  font-weight: 600;
+}

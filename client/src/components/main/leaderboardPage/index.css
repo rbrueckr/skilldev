@@ -1,0 +1,48 @@
+/* src/pages/LeaderboardPage.css */
+.leaderboard-page {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .leaderboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .leaderboard-header h2 {
+    margin: 0;
+  }
+  
+  .leaderboard-list {
+    border-top: 1px solid #ccc;
+  }
+  
+  .leaderboard-entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .rank {
+    width: 30px;
+  }
+  
+  .username {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .score {
+    width: 60px;
+    text-align: right;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }

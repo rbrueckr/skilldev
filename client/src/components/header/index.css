@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  width: 100%;
+  padding: 0 20px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--reddit-dark-grey);
+  margin-right: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.skilldev-logo {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+}
+
+#searchBar {
+  flex: 1;
+  max-width: 600px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #f6f7f8;
+  padding: 0 16px;
+  font-size: 14px;
+  margin: 0 20px;
+}
+
+#searchBar:focus {
+  outline: none;
+  border-color: var(--reddit-blue);
+  background-color: white;
+}
+
+.user-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logout-button, .view-profile-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--reddit-blue);
+  color: #fff;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover, .view-profile-button:hover {
+  background-color: #005a9c;
+}
+
+.view-profile-button {
+  background-color: transparent;
+  color: var(--reddit-blue);
+  border: 1px solid var(--reddit-blue);
+}
