@@ -1,0 +1,13 @@
+{
+  "name": "fake-stack-overflow",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server",
+    "shared"
+  ],
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1"
+  }
+}
