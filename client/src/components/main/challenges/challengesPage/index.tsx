@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { MCQuestion } from '@fake-stack-overflow/shared';
-import { getMCQuestion } from '../../../../../services/gamesService';
+import { getMCQuestion } from '../../../../services/gamesService';
 import {
   Card,
   CardHeader,
@@ -10,11 +10,11 @@ import {
   CardDescription,
   CardContent,
   CardFooter,
-} from '../../../../ui/card';
-import { Alert, AlertDescription } from '../../../../ui/alert';
-import { Button } from '../../../../ui/button';
-import Separator from '../../../../ui/separator';
-import Skeleton from '../../../../ui/skeleton';
+} from '../../../ui/card';
+import { Alert, AlertDescription } from '../../../ui/alert';
+import { Button } from '../../../ui/button';
+import Separator from '../../../ui/separator';
+import Skeleton from '../../../ui/skeleton';
 
 enum UserAnswer {
   NotAnswered = 'notAnswered',
